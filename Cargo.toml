@@ -1,0 +1,12 @@
+[package]
+name = "arrayp"
+version = "0.1.0"
+edition = "2021"
+authors = ["vlapugb <vladimirpugovkinspb@gmail.com>"]
+
+[dependencies]
+statrs = "0.17.1"
+ordered-float = "4.4.0"
+clap = { version = "4", features = ["derive"] }
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
